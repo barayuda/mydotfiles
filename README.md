@@ -5,6 +5,8 @@
 4. NVM
 5. Powershell9k
 6. Check .zshrc file
+7. NVIM
+8. Tmux
 
 ## Vim setup
 
