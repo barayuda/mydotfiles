@@ -3,9 +3,9 @@
 2. Brew
 3. Node
 4. NVM
-5. Powershell9k
+5. Powershell9k -> alternative new Powershell10k
 6. Check .zshrc file
-7. NVIM
+7. NVIM -> alternative SpaceVim
 8. Tmux
 
 ## Vim setup
@@ -19,6 +19,9 @@ Requires Neovim (>= 0.5)
 - [lspsaga.nvim](https://github.com/tami5/lspsaga.nvim) - A light-weight LSP plugin based on Neovim built-in LSP with highly a performant UI
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - A highly extendable fuzzy finder over lists
 - [defx.nvim](https://github.com/Shougo/defx.nvim) - A file explorer
+
+## All in One - SpaceVim
+- [SpaceVim](https://spacevim.org/quick-start-guide/) - A community-driven vim distribution
 
 ## Shell setup (macOS & Linux)
 
