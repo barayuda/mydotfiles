@@ -4,7 +4,7 @@
 3. Node
 4. NVM
 5. Powershell9k -> alternative new Powershell10k
-6. Check .zshrc file
+6. Check .zshrc file (for macOS or Ubuntu)
 7. NVIM -> alternative SpaceVim
 8. Tmux
 
