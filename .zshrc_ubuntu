@@ -99,6 +99,11 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ll="exa -lhgi --icons"
 alias reload="source ~/.zshrc"
+alias rzsh="exec zsh"
+alias wc="warp-cli"
+alias wcd="warp-cli disconnect"
+alias wcc="warp-cli connect"
+alias startWorking="cd /opt/Projects"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -125,7 +130,26 @@ source /home/barayuda/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-synt
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# android sdk
+export ANDROID_ROOT="/opt/android-sdk"
+export ANDROID_HOME="$ANDROID_ROOT/Sdk"
+export ANDROID_EMULATOR="$ANDROID_HOME/emulator"
+export ANDROID_USER_HOME="$ANDROID_ROOT/.android"
+export ANDROID_SDK_HOME="$ANDROID_ROOT"
+export PATH="$ANDROID_EMULATOR:$PATH"
+# android sdk end
+
 # pnpm
 export PNPM_HOME="/home/barayuda/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
+
+# dart
+export DART_BIN="/usr/lib/dart/bin"
+export PATH="$DART_BIN:$PATH"
+# dart end
+
+# flutter
+export FLUTTER_HOME="/opt/flutter-sdk/bin"
+export PATH="$FLUTTER_HOME:$PATH"
+# flutter end
