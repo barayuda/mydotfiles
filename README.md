@@ -33,3 +33,8 @@ Requires Neovim (>= 0.5)
 - [Exa](https://the.exa.website/) - `ls` replacement
 - [ghq](https://github.com/x-motemen/ghq) - Local Git repository organizer
 - [peco](https://github.com/peco/peco) - Interactive filtering
+
+
+## WINDOWS 11 setup
+
+*on progress...*
